@@ -9,7 +9,7 @@ Contents
 (For non Japanese-speaking members, please use translation software to read followings)
 
 ＜ファイルについて＞
-マクロファイルの名前: Oocyte_swelling_assay.ijm
+Oocyte_swelling_assay.ijm
  
 ＜このマクロでできること＞
 このマクロはFIJIでもImageJでも同様に動作すると考えられていますが，FIJIでのみ動作確認しています．
