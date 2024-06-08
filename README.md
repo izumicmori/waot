@@ -8,17 +8,19 @@ Contents
 
 (For non Japanese-speaking members, please use translation software to read followings)
 
-＜ファイルについて＞
+<b>＜ファイルについて＞</B><br>
 Oocyte_swelling_assay.ijm
  
-＜このマクロでできること＞
+<b>＜このマクロでできること＞</b><br>
 このマクロはFIJIでもImageJでも同様に動作すると考えられていますが，FIJIでのみ動作確認しています．
+
 FIJI / ImageJを使いますので，WindowsでもMacでも，32bitでも64bitでも最新OSでも古いバージョンでも関係なく動作します．MetaViewはWindows XPでしか動作しませんので，今後こちらに移行していってください．
 
 （注）FIJIとImageJでは，Macroを保存するフォルダの階層が異なっているそうです．また，Macroファイルの名前の付け方のルールも異なるそうです．ここではFIJIに，このマクロを実装する手順を説明します．ImageJに実装する場合には，ImageJのMacroの使い方についてWebの情報を確認してください．
  
-＜インストールの手順＞
+<b>＜インストールの手順＞</b><br>
 WindowsでもMacでも方法は基本的に同じです．
+
 FIJI.appの存在するフォルダ内に，Macroファイル（Oocyte_swelling_assay.ijm）をコピーします．
 
 1. Macの場合：FIJI.appをダブルクリックするとFIJIアプリが立ち上がり，フォルダは開けません．ここでは「Control」を押しながらアイコンをクリックし「パッケージの内容を表示」を選びます．
@@ -33,6 +35,13 @@ Macrosフォルダが違う階層に2つあります．pluginsの中のMacrosに
 4. FIJIを立ち上げて，プルダウンメニューのPlugins>Macrosのなかに「Oocyte swelling assay」と表示されたら成功です．メニューの下の方に表示されるかもしれません．
  
 （注）FIJIのMacroの名前はアンダースコア（下線「_」）を入れる必要があるそうです．このためこのマクロの名前はOocyte_swellng_assayとなっています．ImageJではFIJIとインストール方法が異なるとどこかの記事で読みました．FIJIにマクロを読み込ませると，プルダウンメニューにはアンダースコアが消えた「Oocyte swelling assay」が表示されます．
+
+<b>＜使い方＞</b><br>
+1. 取り込んだ画像ファイルをひとつのフォルダにまとめておく．
+*Oocyteの画像以外のファイルはこのフォルダには保存しない．
+2. FIJIのマクロプルダウンメニューから”Oocyte swelling assay”を選ぶ.
+3. フォルダを選択するダイアログが表示されるので，取り込んだOocyteの画像が入っているフォルダを選ぶ．
+4. 結果ウィンドウに画像ファイル名と投影面積が表示されるので，これを”Save as”で保存する．
  
 ## 2. R script to separate each 10 data of the outputs of the FIJI measurement of the projected areas of oocytes<br>
 何列も並んだOocyteの投影面積の結果を10個づつのデータに切り分けるためだけのRスクリプト<br>
