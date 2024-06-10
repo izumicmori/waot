@@ -8,7 +8,6 @@ Files posted in this repository are:
 + Oocyte_swelling_assay.ijm
 + Split_oocyte_data_10each-3.R
 + Calcuration of Pf_imageJ.R
-+ 
 
 # About macros/scripts
 
