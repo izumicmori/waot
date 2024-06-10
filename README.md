@@ -1,4 +1,4 @@
-# WAOT ![WAOTlogo](./img/WAOT_logo.png)
+# WAOT ![WAOTlogo](./img/WAOT_logo2.png)
 
 WAOT is a collaborative research team in <b>IPSR, Okayama University</b> mutually working with <i>Xenopus laevis</i> oocyte as a material. We are the oocyte team.
 
