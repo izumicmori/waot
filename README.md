@@ -126,6 +126,7 @@ RStudioのConsol（左下の画面）の最後にファイルが保存された�
    + スクリプトファイル「Calcuration of Pf_imageJ.R」をダブルクリックします． 
    + 必ず入力する項目 / Must input data 最初の面積（A0），90秒後（あるいは測定最後）の面積（A90) 
    + 条件によって変更する項目 / Optional 測定時間（Period of assay），浸透圧差（Dif_in_Osm）
+ ![Pf data input image](./img/Pf_img.jpg)
 
 3. スクリプトの実行
    + データのコピペがすんだら，スクリプト全体を選択して，Runボタンを押す． 
